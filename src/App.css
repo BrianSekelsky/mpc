@@ -30,3 +30,21 @@
     transform: rotate(360deg);
   }
 }
+
+table{
+  margin: 0 auto;
+}
+
+.pad{
+  min-width: 70px;
+  min-height: 70px;
+  padding: 10px;
+  font-size: 60px;
+  color: black;
+  background-color: #d3d3d3;
+}
+
+.playing{
+  background-color: blue;
+  color: whitew3;
+}
