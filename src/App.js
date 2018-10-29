@@ -53,6 +53,9 @@ class App extends Component {
           pads={this.state.pads}
           currentKey={this.state.currentKey}
         />
+        <div className="container">
+          <h2>Use keyboard to play audio samples</h2>
+        </div>
       </div>
     );
   }

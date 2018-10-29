@@ -1,3 +1,7 @@
+body{
+  font-famil: 'Roboto', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -42,9 +46,13 @@ table{
   font-size: 60px;
   color: black;
   background-color: #d3d3d3;
+  -webkit-box-shadow: 0 3px 2px #777;
+  -moz-box-shadow: 0 3px 2px #777;
+  box-shadow: 0 3px 2px #777;
 }
 
 .playing{
-  background-color: blue;
-  color: whitew3;
+  box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+  border-bottom: none;
+  color: red;
 }
