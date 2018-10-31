@@ -1,9 +1,9 @@
 {
-  "main.css": "/mpc/static/css/main.8d8941a5.chunk.css",
-  "main.js": "/mpc/static/js/main.55719a86.chunk.js",
-  "main.js.map": "/mpc/static/js/main.55719a86.chunk.js.map",
-  "static/js/1.6dc9b3db.chunk.js": "/mpc/static/js/1.6dc9b3db.chunk.js",
-  "static/js/1.6dc9b3db.chunk.js.map": "/mpc/static/js/1.6dc9b3db.chunk.js.map",
+  "main.css": "/mpc/static/css/main.08e142c0.chunk.css",
+  "main.js": "/mpc/static/js/main.65cf6df3.chunk.js",
+  "main.js.map": "/mpc/static/js/main.65cf6df3.chunk.js.map",
+  "static/js/1.13fbb367.chunk.js": "/mpc/static/js/1.13fbb367.chunk.js",
+  "static/js/1.13fbb367.chunk.js.map": "/mpc/static/js/1.13fbb367.chunk.js.map",
   "runtime~main.js": "/mpc/static/js/runtime~main.89926047.js",
   "runtime~main.js.map": "/mpc/static/js/runtime~main.89926047.js.map",
   "static/media/hat1.wav": "/mpc/static/media/hat1.ab903ae9.wav",
@@ -15,8 +15,8 @@
   "static/media/2.wav": "/mpc/static/media/2.5559a69b.wav",
   "static/media/3.wav": "/mpc/static/media/3.b7b0d155.wav",
   "static/media/hat2.wav": "/mpc/static/media/hat2.1004d5f7.wav",
-  "static/css/main.8d8941a5.chunk.css.map": "/mpc/static/css/main.8d8941a5.chunk.css.map",
+  "static/css/main.08e142c0.chunk.css.map": "/mpc/static/css/main.08e142c0.chunk.css.map",
   "index.html": "/mpc/index.html",
-  "precache-manifest.063aab87d589fd5fa258122b66551515.js": "/mpc/precache-manifest.063aab87d589fd5fa258122b66551515.js",
+  "precache-manifest.dc53b7719ad7223b16ccbf697950eb9d.js": "/mpc/precache-manifest.dc53b7719ad7223b16ccbf697950eb9d.js",
   "service-worker.js": "/mpc/service-worker.js"
 }
