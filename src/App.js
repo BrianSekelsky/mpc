@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import Pads from './components/pads'
+import Audio from './components/audio'
 
 class App extends Component {
 
   state={
-
-      currentKey: '',
-
       pads: [
       { key: 1, datakey: 49, name: '1' },
       { key: 2, datakey: 50, name: '2' },
@@ -29,31 +27,18 @@ class App extends Component {
     ]
   }
 
-  handleKeyPress(e) {
-    this.setState({currentKey: e.keyCode})
-  }
-  
-  componentDidMount() {
-    document.addEventListener('keydown', this.handleKeyPress)
-  }
-  
-  componentWillUnmount() {
-    document.removeEventListener('keydown', this.handleKeyPress)
-  }
-
   render() {
     return (
       <div className="App">
-      {this.handleKeyPress = this.handleKeyPress.bind(this)}
         <h1>
           MPC 
         </h1>
         <h2>{this.state.currentKeys}</h2>
         <Pads 
           pads={this.state.pads}
-          currentKey={this.state.currentKey}
         />
         <div className="container">
+          <Audio />
           <h2>Use keyboard to play audio samples</h2>
         </div>
       </div>

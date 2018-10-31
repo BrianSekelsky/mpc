@@ -28,8 +28,6 @@ class Pads extends Component {
 	        		dk = {this.props.pads[i+j].datakey}
 
 	        		pressed = {this.props.pads[i+j].pressed}
-
-	        		currentKey = {this.props.currentKey}
 	        		
 	        	/>
 	        }</td>)

@@ -18,7 +18,25 @@ import soundfile16 from '../samples/3.wav'
 
 class Pad extends Component {
 
+	state={
+		currentKey: '',
+		last: false
+	};
 
+	handleKeyPress(e) {
+		this.setState({currentKey: e.keyCode})
+		this.timeoutId = setTimeout(function () {
+        	this.setState({currentKey: ''})
+    	}.bind(this), 250);
+  	}
+
+	componentDidMount() {
+    	document.addEventListener('keydown', this.handleKeyPress)
+  	}
+  
+	componentWillUnmount() {
+	    document.removeEventListener('keydown', this.handleKeyPress)
+	}
 
 	render(){
 		console.log(this.props)
@@ -28,6 +46,7 @@ class Pad extends Component {
 				className={this.getClassName()}
 				data-key={this.props.dk}
 			>
+				{this.handleKeyPress = this.handleKeyPress.bind(this)}
 				{this.props.name}
 			</div>
 		);
@@ -35,7 +54,7 @@ class Pad extends Component {
 
 	getClassName(){
 
-		if(this.props.currentKey === this.props.dk){
+		if(this.state.currentKey === this.props.dk){
 			if(this.props.dk === 90){
 				var audio = new Audio(soundfile1)
 				audio.play()

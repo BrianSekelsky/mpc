@@ -3746,6 +3746,10 @@ hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
 
+howler@2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.0.13.tgz#fa665bf9e328fe71823795e6e334e45e441c1eb9"
+
 howler@^2.0.15:
   version "2.0.15"
   resolved "https://registry.yarnpkg.com/howler/-/howler-2.0.15.tgz#8f26d6548d29b257441fc190644b4392ce99ad32"
@@ -6560,7 +6564,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.0, prop-types@^15.6.2:
+prop-types@^15.5.6, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -6764,6 +6768,13 @@ react-event-listener@^0.6.4:
     "@babel/runtime" "7.0.0"
     prop-types "^15.6.0"
     warning "^4.0.1"
+
+react-howler@^3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/react-howler/-/react-howler-3.7.3.tgz#450c95711472b4c67f8ef7d2a06b85ba78fec488"
+  dependencies:
+    howler "2.0.13"
+    prop-types "^15.5.6"
 
 react-scripts@2.0.4:
   version "2.0.4"
