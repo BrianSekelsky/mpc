@@ -1,7 +1,7 @@
 {
   "main.css": "/mpc/static/css/main.08e142c0.chunk.css",
-  "main.js": "/mpc/static/js/main.65cf6df3.chunk.js",
-  "main.js.map": "/mpc/static/js/main.65cf6df3.chunk.js.map",
+  "main.js": "/mpc/static/js/main.35d7efcd.chunk.js",
+  "main.js.map": "/mpc/static/js/main.35d7efcd.chunk.js.map",
   "static/js/1.13fbb367.chunk.js": "/mpc/static/js/1.13fbb367.chunk.js",
   "static/js/1.13fbb367.chunk.js.map": "/mpc/static/js/1.13fbb367.chunk.js.map",
   "runtime~main.js": "/mpc/static/js/runtime~main.89926047.js",
@@ -17,6 +17,6 @@
   "static/media/hat2.wav": "/mpc/static/media/hat2.1004d5f7.wav",
   "static/css/main.08e142c0.chunk.css.map": "/mpc/static/css/main.08e142c0.chunk.css.map",
   "index.html": "/mpc/index.html",
-  "precache-manifest.dc53b7719ad7223b16ccbf697950eb9d.js": "/mpc/precache-manifest.dc53b7719ad7223b16ccbf697950eb9d.js",
+  "precache-manifest.5cac43ac27a87a4ee812003aad07f1fc.js": "/mpc/precache-manifest.5cac43ac27a87a4ee812003aad07f1fc.js",
   "service-worker.js": "/mpc/service-worker.js"
 }
