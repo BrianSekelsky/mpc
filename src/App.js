@@ -39,7 +39,8 @@ class App extends Component {
         />
         <div className="container">
           <Audio />
-          <h2>Use keyboard to play audio samples</h2>
+          <h3>Use keyboard to play audio samples</h3>
+          <h3>Or touch pads on mobile</h3>
         </div>
       </div>
     );

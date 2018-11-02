@@ -23,8 +23,15 @@ class Pad extends Component {
 		last: false
 	};
 
-	handleKeyPress(e) {
-		this.setState({currentKey: e.keyCode})
+	handleKeyPress(p) {
+		this.setState({currentKey: p.keyCode})
+		this.timeoutId = setTimeout(function () {
+        	this.setState({currentKey: ''})
+    	}.bind(this), 250);
+  	}
+
+  	handleClick(dk){
+  		this.setState({currentKey: dk})
 		this.timeoutId = setTimeout(function () {
         	this.setState({currentKey: ''})
     	}.bind(this), 250);
@@ -45,6 +52,8 @@ class Pad extends Component {
 			<div
 				className={this.getClassName()}
 				data-key={this.props.dk}
+				onClick={() => this.handleClick(this.props.dk)}
+				
 			>
 				{this.handleKeyPress = this.handleKeyPress.bind(this)}
 				{this.props.name}

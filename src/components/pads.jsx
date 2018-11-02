@@ -25,10 +25,7 @@ class Pads extends Component {
 	        	<Pad 
 	        		key = {this.props.pads[i+j].key}
 	        		name = {this.props.pads[i+j].name}
-	        		dk = {this.props.pads[i+j].datakey}
-
-	        		pressed = {this.props.pads[i+j].pressed}
-	        		
+	        		dk = {this.props.pads[i+j].datakey}        		
 	        	/>
 	        }</td>)
 	      }
