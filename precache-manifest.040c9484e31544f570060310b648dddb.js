@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/bongo2.5bdb7d90.wav"
   },
   {
-    "revision": "d0c75901327136d1062a",
-    "url": "/mpc/static/css/main.561bdafa.chunk.css"
+    "revision": "0a253484225d4f88713f",
+    "url": "/mpc/static/css/main.d2d02b24.chunk.css"
   },
   {
     "revision": "71efe4bfbec0f7a419e9",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/bongo1.e05f5229.wav"
   },
   {
-    "revision": "d0c75901327136d1062a",
-    "url": "/mpc/static/js/main.d0c75901.chunk.js"
+    "revision": "0a253484225d4f88713f",
+    "url": "/mpc/static/js/main.0a253484.chunk.js"
   },
   {
     "revision": "a706c645d12d8150008b41e2d16ac6c6",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/woodblock2.a7dcf590.wav"
   },
   {
-    "revision": "323ffb5a76c74b1140b35bf7192f8340",
+    "revision": "887c3d22bbbc4cd83f4d7051e697d921",
     "url": "/mpc/index.html"
   }
 ];
