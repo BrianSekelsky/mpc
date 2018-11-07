@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "042648885ec4d514309aaf46a8f1ccc8",
-    "url": "/mpc/static/media/openhat2.04264888.wav"
+    "revision": "5bdb7d9018e0b1a7a3a113617f84e011",
+    "url": "/mpc/static/media/bongo2.5bdb7d90.wav"
   },
   {
-    "revision": "3c2fa34fc9778fd16a79",
-    "url": "/mpc/static/css/main.0aa3d679.chunk.css"
+    "revision": "d0c75901327136d1062a",
+    "url": "/mpc/static/css/main.561bdafa.chunk.css"
   },
   {
-    "revision": "35e6ca71a719c15fb23f",
-    "url": "/mpc/static/js/1.35e6ca71.chunk.js"
+    "revision": "71efe4bfbec0f7a419e9",
+    "url": "/mpc/static/js/1.71efe4bf.chunk.js"
   },
   {
     "revision": "89926047f5dfd49f1026",
@@ -28,6 +28,10 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/hat1.04652204.wav"
   },
   {
+    "revision": "7b4d18c6bcda46e120f5a292ff179f84",
+    "url": "/mpc/static/media/Clap.7b4d18c6.wav"
+  },
+  {
     "revision": "b8fb76340f84acc7da8f6340994e55fa",
     "url": "/mpc/static/media/hat2.b8fb7634.wav"
   },
@@ -36,16 +40,16 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/bongo1.e05f5229.wav"
   },
   {
-    "revision": "5bdb7d9018e0b1a7a3a113617f84e011",
-    "url": "/mpc/static/media/bongo2.5bdb7d90.wav"
+    "revision": "d0c75901327136d1062a",
+    "url": "/mpc/static/js/main.d0c75901.chunk.js"
   },
   {
     "revision": "a706c645d12d8150008b41e2d16ac6c6",
     "url": "/mpc/static/media/openhat1.a706c645.wav"
   },
   {
-    "revision": "3c2fa34fc9778fd16a79",
-    "url": "/mpc/static/js/main.3c2fa34f.chunk.js"
+    "revision": "042648885ec4d514309aaf46a8f1ccc8",
+    "url": "/mpc/static/media/openhat2.04264888.wav"
   },
   {
     "revision": "b3d2239e7ac5bd8b3a588b58cdbdc235",
@@ -76,15 +80,7 @@ self.__precacheManifest = [
     "url": "/mpc/static/media/woodblock2.a7dcf590.wav"
   },
   {
-    "revision": "7b4d18c6bcda46e120f5a292ff179f84",
-    "url": "/mpc/static/media/Clap.7b4d18c6.wav"
-  },
-  {
-    "revision": "7b4d18c6bcda46e120f5a292ff179f84",
-    "url": "/mpc/static/media/clap.7b4d18c6.wav"
-  },
-  {
-    "revision": "e9eb080482710c6608781a06891f1937",
+    "revision": "323ffb5a76c74b1140b35bf7192f8340",
     "url": "/mpc/index.html"
   }
 ];
