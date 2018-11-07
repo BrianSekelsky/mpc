@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
-import clap from '../samples/clap.wav';
+import clap from '../samples/Clap.wav';
 import kick from '../samples/kick.wav';
 import hat from '../samples/hat1.wav';
 import snare from '../samples/snare.wav';
