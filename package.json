@@ -7,7 +7,9 @@
     "gh-pages": "^2.0.1",
     "howler": "^2.0.15",
     "react": "^16.5.2",
+    "react-beautiful-dnd": "^9.0.2",
     "react-dom": "^16.5.2",
+    "react-dropzone": "^7.0.1",
     "react-event-listener": "^0.6.4",
     "react-howler": "^3.7.3",
     "react-scripts": "2.0.4"
