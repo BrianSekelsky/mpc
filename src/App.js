@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <h1>MPC</h1>
+          <h1>Finger Drummer</h1>
           <div className="pads">
             <Pads
               pads={this.state.pads}

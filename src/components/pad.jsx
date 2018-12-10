@@ -20,21 +20,27 @@ import clap from '../samples/Clap.wav'
 class Pad extends Component {
 
 	state={
-		currentKey: '',
+		currentKey: new Set(),
 		last: false,
 	};
 
 	handleKeyPress(p) {
-		this.setState({currentKey: p.keyCode})
+		var temp = this.state.currentKey
+  		temp.add(p.keyCode)
+
+		this.setState({currentKey: temp})
 		this.timeoutId = setTimeout(function () {
-        	this.setState({currentKey: ''})
+        	this.setState({currentKey: new Set()})
     	}.bind(this), 250);
   	}
 
   	handleClick(dk){
-  		this.setState({currentKey: dk})
+  		var temp = this.state.currentKey
+  		temp.add(dk)
+
+  		this.setState({currentKey: temp})
 		this.timeoutId = setTimeout(function () {
-        	this.setState({currentKey: ''})
+        	this.setState({currentKey: new Set()})
     	}.bind(this), 250);
   	}
 
@@ -47,7 +53,6 @@ class Pad extends Component {
 	}
 
 	render(){
-		console.log(this.props)
 
 		return(
 			<div
@@ -63,85 +68,35 @@ class Pad extends Component {
 		);
 	}
 
-getClassName(){
-
-		if(this.state.currentKey === this.props.dk){
-			if(this.props.dk === 90){
-				var audio = new Audio(kick)
-				audio.play()
-			}
-			if(this.props.dk === 88){
-				var audio = new Audio(snare)
-				audio.play()
-			}
-			if(this.props.dk === 67){
-				var audio = new Audio(bongo1)
-				audio.play()
-			}
-			if(this.props.dk === 86){
-				var audio = new Audio(bongo2)
-				audio.play()
-			}
-			if(this.props.dk === 65){
-				var audio = new Audio(hat1)
-				audio.play()
-			}
-			if(this.props.dk === 83){
-				var audio = new Audio(hat2)
-				audio.play()
-			}
-			if(this.props.dk === 68){
-				var audio = new Audio(clap)
-				audio.play()
-			}
-			if(this.props.dk === 70){
-				var audio = new Audio(timbale)
-				audio.play()
-			}
-			if(this.props.dk === 81){
-				var audio = new Audio(openhat1)
-				audio.play()
-			}
-			if(this.props.dk === 87){
-				var audio = new Audio(openhat2)
-				audio.play()
-			}
-			if(this.props.dk === 69){
-				var audio = new Audio(ride)
-				audio.play()
-			}
-			if(this.props.dk === 82){
-				var audio = new Audio(shake)
-				audio.play()
-			}
-			if(this.props.dk === 49){
-				var audio = new Audio(woodblock1)
-				audio.play()
-			}
-			if(this.props.dk === 50){
-				var audio = new Audio(woodblock2)
-				audio.play()
-			}
-			if(this.props.dk === 51){
-				var audio = new Audio(fx)
-				audio.play()
-			}
-			if(this.props.dk === 52){
-				var audio = new Audio(texture)
-				audio.play()
-			}
-			
-			return "pad playing"
+	getClassName(){
+		const keyMap = {90: kick,
+						88: snare,
+						67: bongo1,
+						86: bongo2,
+						65: hat1,
+						83: hat2,
+						68: clap,
+						70: timbale,
+						81: openhat1,
+						87: openhat2,
+						69: ride,
+						82: shake,
+						49: woodblock1,
+						50: woodblock2,
+						51: fx,
+						52: texture,
 		}
-
-		if(this.state.currentKey === this.props.dk){
-			return "pad playing"
+		const dk = this.props.dk
+		if (this.state.currentKey.has(this.props.dk)){
+				const audioKey = keyMap[this.props.dk]
+			    let audio = new Audio(audioKey)
+				audio.play()
+				return 'pad playing'
 		}
-		
-		else
-			return "pad"
+		else {
+			return 'pad'
+		}
 	}
-
 }
 
 export default Pad;
